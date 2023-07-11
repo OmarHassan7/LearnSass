@@ -1,0 +1,8 @@
+@for $i from 1 through 5 {
+  .class-#{$i} {
+    font-size: 10px + $i;
+  }
+}
+h1 {
+  color: red;
+}
